@@ -38,6 +38,11 @@ h1{
     text-align: center;
     margin-top: 8px;
 }
+#add:hover{
+    background-color: violet;
+    transition: all;
+    cursor: pointer;
+}
 
 .circular {
     width: 40px;
@@ -50,6 +55,10 @@ button{
     border: none;
     font-size: 20px;
     box-shadow: 0px 4px 5px rgba(168, 168, 168, 0.38);
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 .info{
@@ -70,6 +79,10 @@ button{
     margin-bottom: 5px;
     padding: 4px;
     transition: box-shadow 0.5s;
+}
+
+.done{
+    background-color: rgb(158, 253, 160);
 }
 
 .task:hover{

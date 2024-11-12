@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
     <!-- External Libs -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Harmattan:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add,check,delete,edit,event" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add,check,delete,edit,event,undo"/>
+
     <title>قائمة مهام عصرية</title>
 </head>
 <body>
@@ -25,182 +27,8 @@
                         </span>
                     </button>
                 </div>
-                <div class="tasks" style="padding: 20px;">
-                    <div class="task">
-                        <div class="info">
-                            <h2>قراءة كتاب</h2>
-
-                            <div>
-                                <span class="material-symbols-outlined">
-                                    event
-                                </span>
-                                <span>11/11/2024</span>
-                            </div>
-                        </div>
-                        <div class="actions">
-                            <button class="circular" style="background-color: rgb(205, 10, 42); color: white;">
-                                <span class="material-symbols-outlined">
-                                    delete
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(101, 206, 9); color: white;">
-                                <span class="material-symbols-outlined">
-                                    check
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(10, 104, 205); color: white;">
-                                <span class="material-symbols-outlined">
-                                    edit
-                                </span>
-                            </button>
-                        </div>
-                    </div>
+                <div id="tasks" style="padding: 20px;">
                     
-                    <div class="task">
-                        <div class="info">
-                            <h2>قراءة كتاب</h2>
-
-                            <div>
-                                <span class="material-symbols-outlined">
-                                    event
-                                </span>
-                                <span>11/11/2024</span>
-                            </div>
-                        </div>
-                        <div class="actions">
-                            <button class="circular" style="background-color: rgb(205, 10, 42); color: white;">
-                                <span class="material-symbols-outlined">
-                                    delete
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(101, 206, 9); color: white;">
-                                <span class="material-symbols-outlined">
-                                    check
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(10, 104, 205); color: white;">
-                                <span class="material-symbols-outlined">
-                                    edit
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="task">
-                        <div class="info">
-                            <h2>قراءة كتاب</h2>
-
-                            <div>
-                                <span class="material-symbols-outlined">
-                                    event
-                                </span>
-                                <span>11/11/2024</span>
-                            </div>
-                        </div>
-                        <div class="actions">
-                            <button class="circular" style="background-color: rgb(205, 10, 42); color: white;">
-                                <span class="material-symbols-outlined">
-                                    delete
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(101, 206, 9); color: white;">
-                                <span class="material-symbols-outlined">
-                                    check
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(10, 104, 205); color: white;">
-                                <span class="material-symbols-outlined">
-                                    edit
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="task">
-                        <div class="info">
-                            <h2>قراءة كتاب</h2>
-
-                            <div>
-                                <span class="material-symbols-outlined">
-                                    event
-                                </span>
-                                <span>11/11/2024</span>
-                            </div>
-                        </div>
-                        <div class="actions">
-                            <button class="circular" style="background-color: rgb(205, 10, 42); color: white;">
-                                <span class="material-symbols-outlined">
-                                    delete
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(101, 206, 9); color: white;">
-                                <span class="material-symbols-outlined">
-                                    check
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(10, 104, 205); color: white;">
-                                <span class="material-symbols-outlined">
-                                    edit
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="task">
-                        <div class="info">
-                            <h2>قراءة كتاب</h2>
-
-                            <div>
-                                <span class="material-symbols-outlined">
-                                    event
-                                </span>
-                                <span>11/11/2024</span>
-                            </div>
-                        </div>
-                        <div class="actions">
-                            <button class="circular" style="background-color: rgb(205, 10, 42); color: white;">
-                                <span class="material-symbols-outlined">
-                                    delete
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(101, 206, 9); color: white;">
-                                <span class="material-symbols-outlined">
-                                    check
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(10, 104, 205); color: white;">
-                                <span class="material-symbols-outlined">
-                                    edit
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="task">
-                        <div class="info">
-                            <h2>قراءة كتاب</h2>
-
-                            <div>
-                                <span class="material-symbols-outlined">
-                                    event
-                                </span>
-                                <span>11/11/2024</span>
-                            </div>
-                        </div>
-                        <div class="actions">
-                            <button class="circular" style="background-color: rgb(205, 10, 42); color: white;">
-                                <span class="material-symbols-outlined">
-                                    delete
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(101, 206, 9); color: white;">
-                                <span class="material-symbols-outlined">
-                                    check
-                                </span>
-                            </button>
-                            <button class="circular" style="background-color: rgb(10, 104, 205); color: white;">
-                                <span class="material-symbols-outlined">
-                                    edit
-                                </span>
-                            </button>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
